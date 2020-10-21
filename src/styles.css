@@ -16,6 +16,11 @@
     transform: translate(0, -50%) rotate(-45deg);
     -webkit-transform: translate(0, -50%) rotate(-45deg);
 }
+
+#navigation a:hover{
+    border-bottom: 4px solid rgba(253,184,19,.9);
+}
+
 #section1 {
     background-image: url("/materialy/road.jpg");
     background-size: cover;
