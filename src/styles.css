@@ -4,7 +4,7 @@
 
 @tailwind utilities;
 
-#btn-page1-polygon::after{
+#btn-page1-polygon::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -16,4 +16,47 @@
     transform: translate(0, -50%) rotate(-45deg);
     -webkit-transform: translate(0, -50%) rotate(-45deg);
 }
+#section1 {
+    background-image: url("/materialy/road.jpg");
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
 
+#section5 {
+    background-image: url("/materialy/road.jpg");
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.blur-bottom {
+    width: 100%;
+    background: inherit;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.blur-bottom .text {
+    position: relative;
+    z-index: 5;
+    padding-left: 15px;
+}
+
+.blur-bottom .blur {
+    background: inherit;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    filter: blur(15px);
+}
