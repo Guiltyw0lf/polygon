@@ -1,0 +1,19 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+#btn-page1-polygon::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: translate(0, -50%) rotate(-45deg);
+    -webkit-transform: translate(0, -50%) rotate(-45deg);
+}
+

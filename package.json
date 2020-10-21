@@ -1,0 +1,26 @@
+{
+  "name": "polygon_hradec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ciri.space/bitterend/pol/polygon_hradec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.9.5"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "latest",
+    "autoprefixer": "^9.8.6"
+  }
+}
